@@ -1,16 +1,13 @@
+/* Misc Stylings */
 body {
     background-color: darkgray
     
 }
-
 .custom{
     cursor: url(/images/curosr.png), auto;
 }
-
-.smile_text{
-    font-size: 3.2vw;
-}
-
+/* ------------------------------------------------------------------------------------------ */
+/* Button Stylings */
 .btn-primary {
     color: #fff;
     background-color: black;
@@ -24,7 +21,20 @@ body {
     border-color: #285e8e;
     cursor: url(/images/curosr.png), auto;
 }
+/* -------------------------------------------------------------------------------------- */
 
+/* h1 stylings */
+.smile_text{
+    font-size: 3.2vw;
+    
+}
+.shad{
+    text-shadow:  3px 3px 0 #000,
+    -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;;
+}
 .cl_h1{
     font-size: 7vw;
     background: #296CC4;
@@ -34,3 +44,33 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.break_h1{
+    color: white;
+    font-size: 7vw;
+}
+
+.bk_text{
+    font-size: 3vw;
+}
+
+ /* ---------------------------------------------------------------------------- */
+
+ #break_text{
+     margin-top: 100px;
+ }
+
+
+ @media only screen and (max-width:576px) {
+     #h1_edit h3{
+         font-size: 20px;
+        }
+
+
+     #breakpoint_cols h1{
+         font-size: 30px;
+     }
+     #breakpoint_cols h3{
+         font-size: 15px;
+     }
+ }
