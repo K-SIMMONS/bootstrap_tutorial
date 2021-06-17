@@ -24,3 +24,13 @@ body {
     border-color: #285e8e;
     cursor: url(/images/curosr.png), auto;
 }
+
+.cl_h1{
+    font-size: 7vw;
+    background: #296CC4;
+    background: -webkit-linear-gradient(to right, #296CC4 38%, #11571F 43%, #F9FF4D 54%, #C23F17 69%);
+    background: -moz-linear-gradient(to right, #296CC4 38%, #11571F 43%, #F9FF4D 54%, #C23F17 69%);
+    background: linear-gradient(to right, #296CC4 38%, #11571F 43%, #F9FF4D 54%, #C23F17 69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
