@@ -1,0 +1,26 @@
+body {
+    background-color: darkgray
+    
+}
+
+.custom{
+    cursor: url(/images/curosr.png), auto;
+}
+
+.smile_text{
+    font-size: 3.2vw;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: red; /*set the color you want here*/
+    text-decoration: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: red;
+    border-color: #285e8e;
+    cursor: url(/images/curosr.png), auto;
+}
