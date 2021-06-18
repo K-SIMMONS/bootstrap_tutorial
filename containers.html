@@ -29,7 +29,7 @@
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="/colors.html">Colors</a></li>
                   <li><a class="dropdown-item" href="/breakpoints.html">Breakpoints</a></li>
-                  <li><a class="dropdown-item" href="/containers.html">Containers</a></li>
+                  <li><a class="dropdown-item" href="/containers.html">Grid</a></li>
                   <li><a class="dropdown-item" href="/type.html">Typography</a></li>
                   <li><a class="dropdown-item" href="/navbar.html">Navbars</a></li>
                 </ul>
@@ -38,12 +38,98 @@
           </div>
         </div>
       </nav>
-
-
 </header>
 
-
 <body>
+
+  <!-- GRID SYSTEM Text--------------------------------------------------- -->
+<section>
+  <div class="container-fluid mt-3">
+      <div class="row">
+          <div class="col">
+              <h1 class="shad break_h1 text-center"> THE GRID SYSTEM</h1>
+          </div>
+      </div>
+  </div>
+</section>
+<!------------------------------------------------------------------->
+<!--Grid content----------------------------------------------------- -->
+  <section id="grid_content">
+    <div class="container-fluid">
+      <div class="row text-center mt-4">
+        <div class="col-md-12 ">
+          <h1 class="shad text-light">
+            Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content on a page. It's built using <mark>flexbox</mark> to allow for fully responsive capabilities!
+          </h1>
+        </div>
+      </div>
+      <div class="d-flex row  mt-5">
+        <div class="col-md-6">
+          <!-- insert here -->
+          <h1 class="glow shad big_12 text-light text-center">12</h1>
+        </div>
+        <div class="col-md-6">
+          <h1 class="shad text-light">
+            The grid is made up of sections of 12. Always remember your classes should add up to 12 or less, NEVER OVER 12! You start using grid by calling a <mark>Container</mark> to place all the content inside of. Next you will call a <mark>Row</mark> to place a horizontal axis in the container. Then comes the most important part, calling your <mark>Column</mark> class(s)
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- GRID EXAMPLES-------------------------------------------------------- -->
+<section id="grid_examples">
+  <div class="container-fluid ">
+    <div class="row bg-info">
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+      <div class="col">
+        <h1>col 1</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
 
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
