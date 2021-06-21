@@ -4,7 +4,7 @@ body {
     
 }
 .custom{
-    cursor: url(./images/curosr.png), auto;
+    cursor: url(/bootstrap_tutorial/images/curosr.png), auto;
 }
 
 .xtra_margin{
