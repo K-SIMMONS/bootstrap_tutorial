@@ -53,7 +53,7 @@
   </div>
 </section>
 <!------------------------------------------------------------------->
-<!--Grid content----------------------------------------------------- -->
+<!--Quick Explanation----------------------------------------------------- -->
   <section id="grid_content">
     <div class="container-fluid">
       <div class="row text-center mt-4">
@@ -70,58 +70,82 @@
         </div>
         <div class="col-md-6">
           <h1 class="shad text-light">
-            The grid is made up of sections of 12. Always remember your classes should add up to 12 or less, NEVER OVER 12! You start using grid by calling a <mark>Container</mark> to place all the content inside of. Next you will call a <mark>Row</mark> to place a horizontal axis in the container. Then comes the most important part, calling your <mark>Column</mark> class(s)
+            The grid is made up of sections of 12. Always remember your classes should add up to 12 or less, NEVER OVER 12! You start using grid by calling a <mark>container</mark> to place all the content inside of. Next you will call a <mark>row</mark> to place a horizontal axis in the <mark>container</mark>. Then comes the most important part, calling your <mark>column</mark> class(s). Your <marl>column</marl> classes will divide your <mark>row</mark> up into vertical sections based on how many you specify. To get a specific sized <mark>column</mark>, you can add a <mark>breakpoint</mark> along with a numeric value up to 12. If you do not specify a size, bootstrap will automatically set a size based on the content inside. A quick example would look something like <mark>col-sm-12</mark>. What this is saying is at a small screen size, I want the column to stretch the whole width of the <mark>container</mark> (remember the rule of 12).   
           </h1>
         </div>
       </div>
     </div>
   </section>
 
+  <!---Example Text--->
+
+  <section>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col">
+                <h1 class="shad break_h1 bg-dark text-center"> EXAMPLES</h1>
+            </div>
+        </div>
+    </div>
+  </section>
+
 <!-- GRID EXAMPLES-------------------------------------------------------- -->
 <section id="grid_examples">
   <div class="container-fluid ">
-    <div class="row bg-info">
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
-      <div class="col">
-        <h1>col 1</h1>
-      </div>
+    <!--Light Blue Row-->
+    <div class="row bg-info text-center text-light">
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
+      <div class="col-sm-1 border border-dark"><h1>col 1</h1></div>
     </div>
+    <!--Green Row ----->
+    <div class="row bg-success text-center text-light">
+        <div class="col-sm-3 border border-dark"><h1>col 3</h1></div>
+          <div class="col-sm-3 border border-dark"><h1>col 3</h1></div>
+        <div class="col-sm-3 border border-dark"><h1>col 3</h1></div>
+        <div class="col-sm-3 border border-dark"><h1>col 3</h1></div>
+    </div>
+    <!--Yellow Row ---->
+    <div class="row bg-warning text-center text-light ">
+      <div class="col-sm-4 border border-dark"><h1>col-sm-4</h1></div>
+      <div class="col-sm-4 border border-dark"><h1>col-sm-4</h1></div>
+      <div class="col-sm-4 border border-dark"><h1>col-sm-4</h1></div>
+   </div>
+   <!--Dark Row-->
+   <div class="row bg-dark text-center text-light">
+      <div class="col-sm-2 border border-light"><h1>col-sm-2</h1></div>
+      <div class="col-sm-4 border border-light"><h1>col-sm-4</h1></div>
+      <div class="col-sm-6 border border-light"><h1>col-sm-6</h1></div>
+   </div>
+   <!--Red Row-->
+   <div class="row bg-danger text-center text-light">
+      <div class="col-sm-5 border border-dark"><h1>col-sm-5</h1></div>
+      <div class="col-sm-5 border border-dark"><h1>col-sm-5</h1></div>
+      <div class="col-sm-2 border border-dark"><h1>col-sm-2</h1></div>
+   </div>
+  <!--Dark Blue Row-->
+   <div class="row bg-primary text-center text-light">
+     <div class="col-sm-12"><h1>col-sm-12</h1></div>
+   </div>
   </div>
 </section>
 
-
+<div class="container-fluid mt-5">
+  <div class="row text-center">
+    <div class="col-sm-12 shad text-light">
+      <h2>Lets break this down. Here we have 1 <mark>container</mark> which is holding everything together. Within that that <mark>container</mark> we have 6 <mark>row</mark> classes. Each <mark>row</mark> contains its specified <mark>column</mark> <mark>breakpoint</mark> and size. To make it easy we set each <mark>breakpoint</mark> to small, this means that once the screen resizes below a small, the content will do what bootstrap feels is best practice. Usually this results in items stacking which is what happens with our example here. Resize it and see for yourself!  </h2>
+    </div>
+  </div>
+</div>
 
 
 

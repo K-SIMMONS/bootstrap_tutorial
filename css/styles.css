@@ -6,6 +6,10 @@ body {
 .custom{
     cursor: url(/images/curosr.png), auto;
 }
+
+.xtra_margin{
+    margin-top: 70px;
+}
 /* ------------------------------------------------------------------------------------------ */
 /* Button Stylings */
 .btn-primary {
@@ -67,8 +71,13 @@ mark{
     
 }
 
+.heading_tags{
+    font-size: 5vw;
+    margin-top: 70px;
+}
+
 .glow {
-    font-size: 15vw;
+    font-size: 21vw;
     color: #fff;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
